@@ -1,0 +1,18 @@
+{
+  "name": "modelos_microservicio_personas",
+  "version": "1.0.0",
+  "description": "Modelos de la base de datos microservicio personas",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "keywords": [
+    "PostgreSQL"
+  ],
+  "author": "Daniel Jimenez Jerez",
+  "license": "ISC",
+  "dependencies": {
+    "pg": "^6.1.0",
+    "sequelize": "^3.27.0"
+  }
+}

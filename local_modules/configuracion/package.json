@@ -1,0 +1,14 @@
+{
+  "name": "configuracion",
+  "version": "1.0.0",
+  "description": "Configuracion del entorno",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "keywords": [
+    "configuracion"
+  ],
+  "author": "Daniel Jimenez Jerez",
+  "license": "ISC"
+}

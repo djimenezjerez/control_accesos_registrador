@@ -1,0 +1,17 @@
+{
+  "name": "sensor",
+  "version": "1.0.0",
+  "description": "Librería para comunicación con el sensor biométrico de huellas dactilares",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "keywords": [
+    "zfm20"
+  ],
+  "author": "Daniel Jimenez Jerez",
+  "license": "ISC",
+  "dependencies": {
+    "serialport": "^4.0.7"
+  }
+}

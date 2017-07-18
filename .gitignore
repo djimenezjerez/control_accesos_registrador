@@ -1,0 +1,7 @@
+certs/
+doc/api/
+logs/
+node_modules/
+.env
+*.log
+.idea/

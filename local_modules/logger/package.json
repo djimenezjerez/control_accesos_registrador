@@ -1,0 +1,19 @@
+{
+  "name": "logger",
+  "version": "1.0.0",
+  "description": "Logs de mensajes de aplicación",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "keywords": [
+    "logger"
+  ],
+  "author": "Daniel Jiménez Jerez",
+  "license": "ISC",
+  "dependencies": {
+    "moment": "^2.17.0",
+    "winston": "^2.3.0",
+    "winston-daily-rotate-file": "^1.4.4"
+  }
+}

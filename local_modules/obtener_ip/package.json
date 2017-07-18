@@ -1,0 +1,14 @@
+{
+  "name": "obtener_ip",
+  "version": "1.0.0",
+  "description": "Librería para obtener la IP de localhost y de los clientes",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "keywords": [
+    "IP"
+  ],
+  "author": "Daniel Jimenez Jerez",
+  "license": "ISC"
+}

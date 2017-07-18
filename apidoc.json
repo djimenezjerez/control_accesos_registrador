@@ -1,0 +1,8 @@
+{
+  "name": "Hardware registrador de huellas",
+  "version": "1.0.0",
+  "description": "Esta aplicación levanta un servidor en Node.js con conexión cifrada que recibe peticiones para realizar generar imágenes y plantilla de huellas en el sensor ZFM-20 y subirlas a la base de datos",
+  "template": {
+    "forceLanguage": "es"
+  }
+}

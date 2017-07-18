@@ -1,0 +1,43 @@
+{
+  "name": "control_accesos",
+  "version": "1.0.0",
+  "description": "Hardware registrador de huellas",
+  "main": "index.js",
+  "scripts": {
+    "start": "zoo NODE_ENV=production --zoofile ./.env node ./api/index.js",
+    "base_datos": "zoo NODE_ENV=production --zoofile ./.env node ./base_datos/index.js"
+  },
+  "keywords": [
+    "raspberry",
+    "zfm20",
+    "fingerprint",
+    "node",
+    "postgresql",
+    "restify"
+  ],
+  "author": "Daniel Jimenez Jerez",
+  "license": "ISC",
+  "dependencies": {
+    "array-compare": "^2.0.0",
+    "each": "^0.6.1",
+    "ldapjs": "^1.0.1",
+    "moment": "^2.18.1",
+    "morgan": "^1.8.2",
+    "pngjs": "^3.2.0",
+    "restify": "^4.3.0",
+    "spdy": "^3.4.7"
+  },
+  "devDependencies": {
+    "configuracion": "file:local_modules/configuracion",
+    "logger": "file:local_modules/logger",
+    "modelos_microservicio_personas": "file:local_modules/modelos_microservicio_personas",
+    "obtener_ip": "file:local_modules/obtener_ip",
+    "sensor": "file:local_modules/sensor",
+    "gulp": "^3.9.1",
+    "gulp-watch": "^4.3.11",
+    "mocha": "^3.2.0",
+    "should": "^11.2.0",
+    "supertest": "^3.0.0",
+    "zoo": "^0.1.9"
+  }
+}
